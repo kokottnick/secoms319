@@ -1,6 +1,12 @@
-fetch("data.json")
-    .then(response => response.json())
-    .then(myGames => loadGames(myGames));
+try {
+    fetch("data.json")
+        .then(response => response.json())
+        .then(myGames => loadGames(myGames));
+}
+catch (error) {
+    console.error(error);
+}
+    
 
 function loadGames(myGames){
     var imgGTA = document.getElementById("imgGTA");
@@ -48,51 +54,57 @@ function loadGames(myGames){
         let textGame = document.createElement("p");
         textGame.innerHTML = `<p class="card-text"> <strong>${name} <br> Developer: ${dev} <br>Price: ${price} <br>Release Date: ${date}</strong>`
 
-        if(myGames.games[i].productId === "product001"){
-            imgGTA.appendChild(imgGame);
-            textGTA.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product002"){
-            imgRDR2.appendChild(imgGame);
-            textRDR2.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product003"){
-            imgDR2.appendChild(imgGame);
-            textDR2.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product004"){
-            imgW2.appendChild(imgGame);
-            textW2.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product005"){
-            imgF4.appendChild(imgGame);
-            textF4.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product006"){
-            imgHLA.appendChild(imgGame);
-            textHLA.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product007"){
-            imgHogwarts.appendChild(imgGame);
-            textHogwarts.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product008"){
-            imgNoire.appendChild(imgGame);
-            textNoire.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product009"){
-            imgJC3.appendChild(imgGame);
-            textJC3.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product101_1"){
-            imgacmirage.appendChild(imgGame);
-            textacmirage.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product102_1"){
-            imgatomicheart.appendChild(imgGame);
-            textatomicheart.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product103_1"){
-            imgd2lightfall.appendChild(imgGame);
-            textd2lightfall.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product104_1"){
-            imgsonsoftheforest.appendChild(imgGame);
-            textsonsoftheforest.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product105_1"){
-            imgswjedi.appendChild(imgGame);
-            textswjedi.appendChild(textGame);
-        }else if(myGames.games[i].productId === "product106_1"){
-            imgwildhearts.appendChild(imgGame);
-            textwildhearts.appendChild(textGame);
+        try {
+            if(myGames.games[i].productId === "product001"){
+                imgGTA.appendChild(imgGame);
+                textGTA.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product002"){
+                imgRDR2.appendChild(imgGame);
+                textRDR2.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product003"){
+                imgDR2.appendChild(imgGame);
+                textDR2.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product004"){
+                imgW2.appendChild(imgGame);
+                textW2.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product005"){
+                imgF4.appendChild(imgGame);
+                textF4.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product006"){
+                imgHLA.appendChild(imgGame);
+                textHLA.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product007"){
+                imgHogwarts.appendChild(imgGame);
+                textHogwarts.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product008"){
+                imgNoire.appendChild(imgGame);
+                textNoire.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product009"){
+                imgJC3.appendChild(imgGame);
+                textJC3.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product101_1"){
+                imgacmirage.appendChild(imgGame);
+                textacmirage.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product102_1"){
+                imgatomicheart.appendChild(imgGame);
+                textatomicheart.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product103_1"){
+                imgd2lightfall.appendChild(imgGame);
+                textd2lightfall.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product104_1"){
+                imgsonsoftheforest.appendChild(imgGame);
+                textsonsoftheforest.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product105_1"){
+                imgswjedi.appendChild(imgGame);
+                textswjedi.appendChild(textGame);
+            }else if(myGames.games[i].productId === "product106_1"){
+                imgwildhearts.appendChild(imgGame);
+                textwildhearts.appendChild(textGame);
+            }
+        }
+
+        catch (error) {
+            console.error(error);
         }
     }
 }
