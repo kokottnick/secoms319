@@ -8,7 +8,8 @@
             "gameType": "Singleplayer & Multiplayer",
             "Description": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.",
             "priceList": "39.98",
-            "releaseDate": "Apr 14, 2015"
+            "releaseDate": "Apr 14, 2015",
+            "url": "./boxart/GTA.jpg"
         },
         {
             "productId": "product002",
@@ -18,7 +19,8 @@
             "gameType": "Singleplayer & Multiplayer",
             "Description": "Winner of over 175 Game of the Year Awards and recipient of over 250 perfect scores, RDR2 is the epic tale of outlaw Arthur Morgan and the infamous Van der Linde gang, on the run across America at the dawn of the modern age. Also includes access to the shared living world of Red Dead Online.",
             "priceList": "59.99",
-            "releaseDate": "Dec 5, 2019"
+            "releaseDate": "Dec 5, 2019",
+            "url": "./boxart/RDR2.jpg"
         },
         {
             "productId": "product003",
@@ -28,7 +30,8 @@
             "gameType": "Singleplayer & Multiplayer",
             "Description": "DiRT Rally 2.0 dares you to carve your way through a selection of iconic rally locations from across the globe, in the most powerful off-road vehicles ever made, knowing that the smallest mistake could end your stage.",
             "priceList": "19.99",
-            "releaseDate": "Feb 25, 2019"
+            "releaseDate": "Feb 25, 2019",
+            "url": "./boxart/DR2.jpg"
         },
         {
             "productId": "product004",
@@ -38,7 +41,8 @@
             "gameType": "Singleplayer",
             "Description": "America, 1961. The assassination of Nazi General Deathshead was a short-lived victory. The Nazis maintain their stranglehold on the world. You are BJ Blazkowicz, aka “Terror-Billy,” member of the Resistance, scourge of the Nazi empire, and humanity's last hope for liberty.",
             "priceList": "39.99",
-            "releaseDate": "Oct 26, 2017"
+            "releaseDate": "Oct 26, 2017",
+            "url": "./boxart/W2.jpg"
         },
         {
             "productId": "product005",
@@ -48,7 +52,8 @@
             "gameType": "Singleplayer",
             "Description": "As the sole survivor of Vault 111, you enter a world destroyed by nuclear war. Every second is a fight for survival, and every choice is yours. Only you can rebuild and determine the fate of the Wasteland. Welcome home.",
             "priceList": "19.99",
-            "releaseDate": "Nov 9, 2015"
+            "releaseDate": "Nov 9, 2015",
+            "url": "./boxart/F4.jpg"
         },
         {
             "productId": "product006",
@@ -58,7 +63,8 @@
             "gameType": "VR Singleplayer",
             "Description": "Half-Life: Alyx is Valve's VR return to the Half-Life series. It's the story of an impossible fight against a vicious alien race known as the Combine, set between the events of Half-Life and Half-Life 2. Playing as Alyx Vance, you are humanity's only chance for survival.",
             "priceList": "59.99",
-            "releaseDate": "Mar 23, 2020"
+            "releaseDate": "Mar 23, 2020",
+            "url": "./boxart/HLA.jpg"
         },
         {
             "productId": "product007",
@@ -68,7 +74,8 @@
             "gameType": "Singleplayer",
             "Description": "Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
             "priceList": "59.99",
-            "releaseDate": "Feb 10, 2023"
+            "releaseDate": "Feb 10, 2023",
+            "url": "./boxart/Hogwarts.jpg"
         },
         {
             "productId": "product008",
@@ -78,7 +85,8 @@
             "gameType": "Singleplayer",
             "Description": "L.A. Noire is a violent crime thriller that blends breathtaking action with true detective work to deliver an unprecedented interactive experience. This complete edition of L.A. Noire includes the complete original game and all previously released downloadable content.",
             "priceList": "19.99",
-            "releaseDate": "Nov 8, 2011"
+            "releaseDate": "Nov 8, 2011",
+            "url": "./boxart/Noire.jpg"
         },
         {
             "productId": "product009",
@@ -88,7 +96,8 @@
             "gameType": "Singleplayer",
             "Description": "With over 1000 km² of complete freedom from sky to seabed, Rico Rodriguez returns to unleash chaos in the most creative and explosive ways imaginable.",
             "priceList": "19.99",
-            "releaseDate": "Nov 30, 2015"
+            "releaseDate": "Nov 30, 2015",
+            "url": "./boxart/JC3.jpg"
         }
 
     ],
@@ -101,7 +110,8 @@
             "gameType": "Singleplayer",
             "Description": "Discover a narrative-driven action-adventure experience that follows the transformation of a defiant young man into a refined Master Assassin with a conflicted destiny. Meet an inspiring cast of characters who will shape Basim's destiny and may be more than what they seem…",
             "priceList": "59.99",
-            "releaseDate": "TBD"
+            "releaseDate": "TBD",
+            "url": "./boxart/acmirage.png"
         },
         {
             "productId": "product102_1",
@@ -111,7 +121,8 @@
             "gameType": "Singleplayer",
             "Description": "In a mad and sublime utopian world, take part in explosive encounters. Adapt your fighting style to each opponent, use your environment and upgrade your equipment to fulfill your mission. If you want to reach the truth, you'll have to pay in blood.",
             "priceList": "59.99",
-            "releaseDate": "Feb 20, 2023"
+            "releaseDate": "Feb 20, 2023",
+            "url": "./boxart/atomicheart.jpg"
         },
         {
             "productId": "product103_1",
@@ -121,7 +132,8 @@
             "gameType": "Singleplayer & Multiplayer",
             "Description": "In a Neptunian city under siege, find strength in your fellow Guardians as the end to all things approaches—the Witness is here. Arm yourself with new rewards and unlock new Dark powers to triumph in Lightfall's unforgettable Legendary mode.",
             "priceList": "49.99",
-            "releaseDate": "Feb 28, 2023"
+            "releaseDate": "Feb 28, 2023",
+            "url": "./boxart/d2lightfall.jpg"
         },
         {
             "productId": "product104_1",
@@ -131,7 +143,8 @@
             "gameType": "Singleplayer & Multiplayer",
             "Description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator.",
             "priceList": "29.99",
-            "releaseDate": "Feb 23, 2023"
+            "releaseDate": "Feb 23, 2023",
+            "url": "./boxart/sonsoftheforest.jpg"
         },
         {
             "productId": "product105_1",
@@ -141,7 +154,8 @@
             "gameType": "Singleplayer",
             "Description": "The story of Cal Kestis continues in STAR WARS Jedi: Survivor™, a galaxy-spanning, third-person, action-adventure game.",
             "priceList": "69.99",
-            "releaseDate": "Apr 27, 2023"
+            "releaseDate": "Apr 27, 2023",
+            "url": "./boxart/swjedi.jpg"
         },
         {
             "productId": "product106_1",
@@ -151,7 +165,8 @@
             "gameType": "Singleplayer & Multiplayer",
             "Description": "WILD HEARTS™ is a unique twist on the hunting genre, where technology gives you a fighting chance against fearsome beasts infused with the ferocious power of nature itself. Take on these creatures alone or hunt with friends in seamless co-op.",
             "priceList": "69.99",
-            "releaseDate": "Feb 16, 2023"
+            "releaseDate": "Feb 16, 2023",
+            "url": "./boxart/wildhearts.jpg"
         }
     ]
 }
