@@ -1,5 +1,5 @@
 {
-    "Released Games": [
+    "games": [
         {
             "productId": "product001",
             "productName": "Grand Theft Auto V",
@@ -98,10 +98,7 @@
             "priceList": "19.99",
             "releaseDate": "Nov 30, 2015",
             "url": "./boxart/JC3.jpg"
-        }
-
-    ],
-    "Unreleased Games": [
+        },
         {
             "productId": "product101_1",
             "productName": "Assassins Creed Mirage",

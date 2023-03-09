@@ -1,6 +1,6 @@
 fetch("data.json")
-.then(response => response.json)
-.then(myGames => loadGames(myGames));
+    .then(response => response.json())
+    .then(myGames => loadGames(myGames));
 
 function loadGames(myGames){
     var imgGTA = document.getElementById("imgGTA");
@@ -43,10 +43,10 @@ function loadGames(myGames){
         let date = myGames.games[i].releaseDate;
 
         let imgGame = document.createElement("div");
-        imgGame.innerHTML = `<img src=${url} class="card shadow-sm" alt="..."></img>`;
+        imgGame.innerHTML = `<img src=${url} class="card-img-top" alt=${name}></img>`;
 
         let textGame = document.createElement("p");
-        textGame.innerHTML = `<p class="card-text"> <strong>${name}</strong>, Developer: ${dev}, Price: ${price}, Release Date: ${date}`
+        textGame.innerHTML = `<p class="card-text"> <strong>${name} <br> Developer: ${dev} <br>Price: ${price} <br>Release Date: ${date}</strong>`
 
         if(myGames.games[i].productId === "product001"){
             imgGTA.appendChild(imgGame);
